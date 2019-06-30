@@ -1,0 +1,14 @@
+---
+micronaut:
+  application:
+    name: micronaut-sample
+
+---
+micronaut:
+  io:
+    watch:
+      paths: src/main
+      restart: true
+
+---
+datasources.default: {}
