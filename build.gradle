@@ -35,6 +35,7 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}"
     compile "org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}"
     compile "io.micronaut:micronaut-runtime"
+    compile 'io.micronaut.configuration:micronaut-hibernate-validator'
     developmentOnly "io.micronaut:micronaut-runtime-osx"
     developmentOnly "net.java.dev.jna:jna"
     developmentOnly "io.methvin:directory-watcher"
