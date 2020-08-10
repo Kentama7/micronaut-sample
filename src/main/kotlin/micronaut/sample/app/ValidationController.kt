@@ -16,6 +16,7 @@ class ValidationController {
 
     @Post("/")
     fun index(@Body @Valid form: ValidationForm): HttpStatus {
+        val copy = form.copy(name = "hoge")
         return HttpStatus.OK
     }
 }
